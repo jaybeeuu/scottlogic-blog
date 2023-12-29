@@ -69,7 +69,7 @@ Rx operators take a
 [`SchedulerLike`](https://rxjs.dev/api/index/interface/SchedulerLike)
 argument which they will use to schedule their emissions and tasks.
 Usually, by default they use the
-[`asyncScheduler`](https://rxjs.dev/api/index/const/asyncScheduler%60)
+[`asyncScheduler`](https://rxjs.dev/api/index/const/asyncScheduler)
 which puts an operators tasks on the event loop, so they happen asynchronously.
 The `TestScheduler` by contrast runs tasks synchronously, and in a similar manner to jest's
 [Timer Mocks](https://jestjs.io/docs/timer-mocks)
